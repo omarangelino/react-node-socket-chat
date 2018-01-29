@@ -23,7 +23,7 @@ class App extends Component {
   		if(!user || !user.username || user.username == ""){
   			return;
   		}
-  		console.log('Loggin as ' + JSON.stringify(user, undefined, 2));
+  		console.log('Loggin as :' + JSON.stringify(user, undefined, 2));
   		this.setState({
       		user: user
     	});
